@@ -2,6 +2,6 @@
 const port = 8080;
 const { execSync } = require("child_process");
 
-execSync(`chmod +x ./web.sh && ./web.sh`,{
+execSync(`chmod +x ./start.sh && ./start.sh`,{
 	cwd: './'
 })
